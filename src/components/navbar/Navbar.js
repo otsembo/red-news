@@ -1,16 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar(){
     return(
         <nav className="navbar bg-dark">
             <div className="container-fluid">
-                <a className="navbar-brand text-light"
-                href="#">{'RED-NEWS'}</a>
+                <Link className="navbar-brand text-light"
+                to="/">{'RED-NEWS'}</Link>
                 <ul className="navbar-nav me-auto">
                     <li className="nav-item">
-                        <a href="#" className="nav-link text-light">
+                        <Link to="/sources" className="nav-link text-light">
                             {'SOURCES'}
-                        </a>
+                        </Link>
                     </li>
                 </ul>
                 <form className="d-flex">
