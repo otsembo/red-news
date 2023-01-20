@@ -8,12 +8,6 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar/>
-
-      <Routes>
-        <Route path="/" element={ <Home/> }></Route>
-        <Route path="/sources" element={ <Sources/> }></Route>
-      </Routes>
-
     </BrowserRouter>
   );
 }
